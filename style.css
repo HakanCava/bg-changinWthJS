@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: chartreuse;
+}
+.container {
+  display: grid;
+  grid-template-columns: 8rem 8rem;
+  justify-content: space-around;
+  margin: 5rem;
+  border-radius: 15px;
+}
+
+.content {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  height: 8rem;
+  border-radius: 50%;
+  padding: 1rem;
+ 
+}
+
+.content1 {
+  background-color: yellow;
+}
+.content2 {
+  background-color: coral;
+}
+.content3 {
+  background-color: purple;
+  margin: 5rem auto;
+  width: 8rem;
+}
